@@ -1,0 +1,44 @@
+
+.App {
+    text-align: center;
+  }
+  
+  /* .MuiDataGrid-main.css-204u17-MuiDataGrid-main {
+    padding: -1px;
+    margin-top: 56px;
+    left: 10px;
+  } */
+  .MuiDataGrid-columnHeaders.css-f3jnds-MuiDataGrid-columnHeaders {
+    color: white;
+    background-color:white ;
+    color: black;
+  }
+  /* .MuiDataGrid-virtualScroller.css-1w5m2wr-MuiDataGrid-virtualScroller {
+    width: 586px;
+    height: 460px;
+    margin-top: 56px;
+    overflow-x: hidden;
+  } */
+  
+  p.MuiTypography-root.MuiTypography-body1.css-ahj2mt-MuiTypography-root {
+    display: flex;
+    align-items: center;
+  }
+  input[type="search"] {
+    border: none;
+    background: transparent;
+    margin: 0;
+    padding: 7px 8px;
+    font-size: 14px;
+    color: inherit;
+    border: 2px solid white;
+    border-radius: inherit;
+  }
+  
+  input[type="search"]::placeholder {
+    color: #bbb;
+  }
+  .card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
